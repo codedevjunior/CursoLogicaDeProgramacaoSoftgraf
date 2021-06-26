@@ -1,18 +1,13 @@
 
-//programa 1 escreva Olá Mundo na Tela
-//programa 2 escreva o nome da pessoa na tela
-programa
-{
+// programa 3 mostra na tela um numero inteiro
+programa{
 	
 	funcao inicio(){
+		inteiro numero
+		escreva("Digite um numero inteiro: ")
+		leia(numero)
 
-		cadeia nome // declaração da variavel
-		
-		escreva("Olá Mundo! \n")
-		escreva("Digite seu nome: ")
-		leia(nome)
-
-		escreva("Seu nome é: ", nome, "\n")
+		escreva("O numero digitado foi: ", numero, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 191; 
+ * @POSICAO-CURSOR = 47; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

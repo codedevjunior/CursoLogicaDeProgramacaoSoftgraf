@@ -1,18 +1,21 @@
 
-//programa 1 escreva Olá Mundo na Tela
-//programa 2 escreva o nome da pessoa na tela
-programa
-{
+//programa 4 informa o maior entre 2 números
+programa{
 	
 	funcao inicio(){
 
-		cadeia nome // declaração da variavel
-		
-		escreva("Olá Mundo! \n")
-		escreva("Digite seu nome: ")
-		leia(nome)
+		// importante a identação, por boa prática de programação
+		inteiro a, b
 
-		escreva("Seu nome é: ", nome, "\n")
+		escreva("\nDigite o valor de a: ")
+		leia(a)
+		escreva("\nDigite o valor de b: ")
+		leia(b)
+
+		se (a > b)
+			escreva("\nO maior valor é", a)
+		senao
+			escreva("\nO maior valor é ", b)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 191; 
+ * @POSICAO-CURSOR = 141; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
